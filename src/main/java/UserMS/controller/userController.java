@@ -147,16 +147,16 @@ public class userController {
 		return cartservice.getSpecificCart(buyerId,proId);
 	}
 
-	@PostMapping(value = "/cart/add",consumes=MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<String> addToCart(@RequestBody CartDTO cartDTO) throws Exception {
-
-		ResponseEntity<String> responseEntity = null;
-		cartservice.addToCart(cartDTO);
-		String successMessage = environment.getProperty("cart.ADD_SUCCESS");
-		responseEntity = new ResponseEntity<String>(successMessage, HttpStatus.OK);
-		return responseEntity;
-
-	}
+//	@PostMapping(value = "/cart/add",consumes=MediaType.APPLICATION_JSON_VALUE)
+//	public ResponseEntity<String> addToCart(@RequestBody CartDTO cartDTO) throws Exception {
+//
+//		ResponseEntity<String> responseEntity = null;
+//		cartservice.addToCart(cartDTO);
+//		String successMessage = environment.getProperty("cart.ADD_SUCCESS");
+//		responseEntity = new ResponseEntity<String>(successMessage, HttpStatus.OK);
+//		return responseEntity;
+//
+//	}
 	
 	@GetMapping(value = "/cart/checkout/{buyerId}")
 	public List<CartDTO> checkOutFromCart(@PathVariable int buyerId) {

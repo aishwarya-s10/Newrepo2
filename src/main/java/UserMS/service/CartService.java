@@ -137,79 +137,79 @@ public class CartService {
   
    
 
-   public void addToCart(CartDTO cartDTO) throws Exception {
-		final String baseUrl = producturi + cartDTO.getProdId();
-		ResponseEntity<Product> result = restTemplate.getForEntity(baseUrl, Product.class);
-		int stock = result.getBody().getStock();
-
-		Optional<Cart> cartEntity = cartrepository.findById(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()));
-		if (cartEntity.isPresent()) {
-			if (controller.isBuyerPrivileged(cartDTO.getBuyerId())) {
-				if (cartDTO.getQuantity() + cartEntity.get().getQuantity() <= stock) {
-					cartDTO.setQuantity(cartDTO.getQuantity() + cartEntity.get().getQuantity());
-					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
-							cartDTO.getQuantity());
-					cartrepository.save(cartEntity1);
-
-				} else {
-					throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
-				}
-
-			} else {
-				if (cartDTO.getQuantity() + cartEntity.get().getQuantity() <= stock
-						&& cartDTO.getQuantity() + cartEntity.get().getQuantity() <= 10) {
-					cartDTO.setQuantity(cartDTO.getQuantity() + cartEntity.get().getQuantity());
-					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
-							cartDTO.getQuantity());
-
-					cartrepository.save(cartEntity1);
-				}
-
-				else {
-					if (cartDTO.getQuantity() + cartEntity.get().getQuantity() > 10) {
-						throw new Exception("wishlist.NOT_PRIVILEGE_BUYER");
-
-					} else {
-						throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
-
-					}
-				}
-
-			}
-
-		} 
-		
-		else {
-			if (controller.isBuyerPrivileged(cartDTO.getBuyerId())) {
-				if (cartDTO.getQuantity() <= stock) {
-					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
-							cartDTO.getQuantity());
-					cartrepository.save(cartEntity1);
-
-				} else {
-					throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
-				}
-
-			} else {
-
-				if (cartDTO.getQuantity() <= 10 && cartDTO.getQuantity() <= stock) {
-					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
-							cartDTO.getQuantity());
-					cartrepository.save(cartEntity1);
-
-				} else {
-					if (cartDTO.getQuantity() > stock) {
-						throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
-					} else {
-						throw new Exception("wishlist.NOT_PRIVILEGE_BUYER");
-
-					}
-				}
-			}
-
-		}
-
-	}
+//   public void addToCart(CartDTO cartDTO) throws Exception {
+//		final String baseUrl = producturi + cartDTO.getProdId();
+//		ResponseEntity<Product> result = restTemplate.getForEntity(baseUrl, Product.class);
+//		int stock = result.getBody().getStock();
+//
+//		Optional<Cart> cartEntity = cartrepository.findById(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()));
+//		if (cartEntity.isPresent()) {
+//			if (controller.isBuyerPrivileged(cartDTO.getBuyerId())) {
+//				if (cartDTO.getQuantity() + cartEntity.get().getQuantity() <= stock) {
+//					cartDTO.setQuantity(cartDTO.getQuantity() + cartEntity.get().getQuantity());
+//					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
+//							cartDTO.getQuantity());
+//					cartrepository.save(cartEntity1);
+//
+//				} else {
+//					throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
+//				}
+//
+//			} else {
+//				if (cartDTO.getQuantity() + cartEntity.get().getQuantity() <= stock
+//						&& cartDTO.getQuantity() + cartEntity.get().getQuantity() <= 10) {
+//					cartDTO.setQuantity(cartDTO.getQuantity() + cartEntity.get().getQuantity());
+//					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
+//							cartDTO.getQuantity());
+//
+//					cartrepository.save(cartEntity1);
+//				}
+//
+//				else {
+//					if (cartDTO.getQuantity() + cartEntity.get().getQuantity() > 10) {
+//						throw new Exception("wishlist.NOT_PRIVILEGE_BUYER");
+//
+//					} else {
+//						throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
+//
+//					}
+//				}
+//
+//			}
+//
+//		} 
+//		
+//		else {
+//			if (controller.isBuyerPrivileged(cartDTO.getBuyerId())) {
+//				if (cartDTO.getQuantity() <= stock) {
+//					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
+//							cartDTO.getQuantity());
+//					cartrepository.save(cartEntity1);
+//
+//				} else {
+//					throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
+//				}
+//
+//			} else {
+//
+//				if (cartDTO.getQuantity() <= 10 && cartDTO.getQuantity() <= stock) {
+//					Cart cartEntity1 = new Cart(new CompositeKey(cartDTO.getBuyerId(), cartDTO.getProdId()),
+//							cartDTO.getQuantity());
+//					cartrepository.save(cartEntity1);
+//
+//				} else {
+//					if (cartDTO.getQuantity() > stock) {
+//						throw new Exception("wishlist.STOCK_NOT_AVAILABLE");
+//					} else {
+//						throw new Exception("wishlist.NOT_PRIVILEGE_BUYER");
+//
+//					}
+//				}
+//			}
+//
+//		}
+//
+//	}
    
    
 }
