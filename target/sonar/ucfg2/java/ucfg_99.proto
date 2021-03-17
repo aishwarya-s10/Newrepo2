@@ -1,0 +1,23 @@
+
+6UserMS.controller.userController#isBuyerPrivileged(I)ZU
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javah h(!"1*Ï
+1U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaj	 j(¹
+¶
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaj	 j(!
+%0UserMS.service.BuyerService"__id*4*2"
+ UserMS.controller.userController"
+
+buyserviceÕÒ
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaj	 j()
+%1boolean",UserMS.service.BuyerService#IsPrivileged(I)Z*#
+!
+%0UserMS.service.BuyerService*
+""2IsPrivileged(I)"_
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaj j(*
+"":
+""B$"
+ UserMS.controller.userController

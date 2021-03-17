@@ -1,0 +1,85 @@
+
+9UserMS.dto.SellerDTO#createEntity()LUserMS/entity/Seller;I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.java? ?("1*Ô
+1I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaA A(}
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaA A(
+%0UserMS.entity.Seller"UserMS.entity.Sellerí
+è
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaA A(
+%1"UserMS.entity.Seller#<init>()V*
+
+%0UserMS.entity.Sellerê
+ç
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaA A(
+sellUserMS.entity.Seller"__id*
+
+%0UserMS.entity.Sellerøº
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaB B(
+%2java.lang.String"1UserMS.dto.SellerDTO#getEmail()Ljava/lang/String;*
+UserMS.dto.SellerDTO2
+getEmail()Ê„
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaB B( 
+
+%3void"2UserMS.entity.Seller#setEmail(Ljava/lang/String;)V*
+
+sellUserMS.entity.Seller*
+
+%2java.lang.String2setEmail(Ljava/lang/String;)Ω∫
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaD D(
+%4java.lang.String"0UserMS.dto.SellerDTO#getName()Ljava/lang/String;*
+UserMS.dto.SellerDTO2	getName()‰·
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaD D(
+
+%5void"1UserMS.entity.Seller#setName(Ljava/lang/String;)V*
+
+sellUserMS.entity.Seller*
+
+%4java.lang.String2setName(Ljava/lang/String;)≈¬
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaE E(%
+%6java.lang.String"4UserMS.dto.SellerDTO#getPassword()Ljava/lang/String;*
+UserMS.dto.SellerDTO2getPassword()ÏÈ
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaE E(&
+
+%7void"5UserMS.entity.Seller#setPassword(Ljava/lang/String;)V*
+
+sellUserMS.entity.Seller*
+
+%6java.lang.String2setPassword(Ljava/lang/String;)«ƒ
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaF F(%
+%8java.lang.Integer"5UserMS.dto.SellerDTO#getSellerId()Ljava/lang/Integer;*
+UserMS.dto.SellerDTO2getSellerId()ÔÏ
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaF F(&
+
+%9void"6UserMS.entity.Seller#setSellerId(Ljava/lang/Integer;)V*
+
+sellUserMS.entity.Seller*
+
+%8java.lang.Integer2 setSellerId(Ljava/lang/Integer;)Ã…
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaG G(+
+%10java.lang.String"7UserMS.dto.SellerDTO#getPhonenumber()Ljava/lang/String;*
+UserMS.dto.SellerDTO2getPhonenumber()ÙÒ
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaG G(,
+%11void"8UserMS.entity.Seller#setPhonenumber(Ljava/lang/String;)V*
+
+sellUserMS.entity.Seller*
+
+%10java.lang.String2"setPhonenumber(Ljava/lang/String;)"k
+I
+?C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/SellerDTO.javaH H(
+
+sellUserMS.entity.SellerB
+UserMS.dto.SellerDTO

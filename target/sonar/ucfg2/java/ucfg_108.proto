@@ -1,0 +1,24 @@
+
+AUserMS.controller.userController#getallwishlist()Ljava/util/List;W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java± ±(("1*…
+1W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java³
+ ³(Ã
+À
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java³
+ ³($
+%0UserMS.service.WishListService"__id*9*7"
+ UserMS.controller.userController"
+wishlistServiceíê
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java³
+ ³(*
+%1java.util.List"?UserMS.service.WishListService#getAllwishlist()Ljava/util/List;*&
+$
+%0UserMS.service.WishListService2getAllwishlist()"q
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java³ ³(+
+
+%1java.util.ListB$"
+ UserMS.controller.userController

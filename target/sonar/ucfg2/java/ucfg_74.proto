@@ -1,0 +1,33 @@
+
+’UserMS.UserServiceApplication#restTemplate(Lorg/springframework/boot/web/client/RestTemplateBuilder;)Lorg/springframework/web/client/RestTemplate;R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java (!"startingBlock*ÿ
+startingBlockR
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java! (>à
+Ý
+R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java (
+%1"
+__annotate*/-
++org.springframework.context.annotation.Bean*D
+B
+builder7org.springframework.boot.web.client.RestTemplateBuilder±
+®
+R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java6 (=B
+builder7org.springframework.boot.web.client.RestTemplateBuilder"__annotation*
+
+%1*
+1*­
+1R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java	 (ÇÄ
+R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java	 (1
+%0+org.springframework.web.client.RestTemplate"lorg.springframework.boot.web.client.RestTemplateBuilder#build()Lorg/springframework/web/client/RestTemplate;*D
+B
+builder7org.springframework.boot.web.client.RestTemplateBuilder2build()"‰
+R
+HC:/Users/Admin/Newrepo2/src/main/java/UserMS/UserServiceApplication.java (3
+1
+%0+org.springframework.web.client.RestTemplate:B
+builder7org.springframework.boot.web.client.RestTemplateBuilderB!
+UserMS.UserServiceApplication

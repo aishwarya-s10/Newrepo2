@@ -1,0 +1,43 @@
+
+sUserMS.controller.userController#deleteSpecificSeller(Ljava/lang/Integer;)Lorg/springframework/http/ResponseEntity;U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaR R(3"1*∫
+
+1U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaS S(ª
+∏
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaS S("
+%0UserMS.service.SellerService"__id*5*3"
+ UserMS.controller.userController"
+sellservice˝˙
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaS S(,
+
+%1void"5UserMS.service.SellerService#deleteSpecificSeller(I)V*$
+"
+%0UserMS.service.SellerService*
+
+sellerIdjava.lang.Integer2deleteSpecificSeller(I)ì
+ê
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaTC T(P)
+%2#org.springframework.http.HttpStatus"__id*
+""≤Ø
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaT T(#-
+%3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity…
+∆
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaT	 T(Q
+%4"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%3'org.springframework.http.ResponseEntity*
+Seller Deleted Successfully*+
+)
+%2#org.springframework.http.HttpStatus"à
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaT T(R/
+-
+%3'org.springframework.http.ResponseEntity:
+sellerIdjava.lang.IntegerB$"
+ UserMS.controller.userController

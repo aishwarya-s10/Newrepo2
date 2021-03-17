@@ -1,0 +1,27 @@
+
+tUserMS.controller.userController#getSpecificWishlist(Ljava/lang/Integer;Ljava/lang/Integer;)LUserMS/dto/WishlistDTO;W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java· ·('"1*²
+1W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¸	 ¸(Ã
+À
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¸	 ¸($
+%0UserMS.service.WishListService"__id*9*7"
+ UserMS.controller.userController"
+wishlistService’
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¸	 ¸(=
+%1UserMS.dto.WishlistDTO"rUserMS.service.WishListService#getSpecificWishlist(Ljava/lang/Integer;Ljava/lang/Integer;)LUserMS/dto/WishlistDTO;*&
+$
+%0UserMS.service.WishListService*
+
+buyerIdjava.lang.Integer*
+
+prodIdjava.lang.Integer2;getSpecificWishlist(Ljava/lang/Integer;Ljava/lang/Integer;)"y
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¸ ¸(>
+
+%1UserMS.dto.WishlistDTO:
+buyerIdjava.lang.Integer:
+prodIdjava.lang.IntegerB$"
+ UserMS.controller.userController

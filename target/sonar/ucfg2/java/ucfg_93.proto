@@ -1,0 +1,24 @@
+
+[UserMS.controller.userController#getSpecificsell(Ljava/lang/Integer;)LUserMS/dto/SellerDTO;U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java< <(!"1*®
+1U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java>	 >(»
+¸
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java>	 >("
+%0UserMS.service.SellerService"__id*5*3"
+ UserMS.controller.userController"
+sellserviceœ™
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java>	 >(0
+%1UserMS.dto.SellerDTO"GUserMS.service.SellerService#getSpecificSeller(I)LUserMS/dto/SellerDTO;*$
+"
+%0UserMS.service.SellerService*
+
+sellerIdjava.lang.Integer2getSpecificSeller(I)"u
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java> >(1
+
+%1UserMS.dto.SellerDTO:
+sellerIdjava.lang.IntegerB$"
+ UserMS.controller.userController

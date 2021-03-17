@@ -1,0 +1,87 @@
+
+5UserMS.dto.CartDTO#createEntity()LUserMS/entity/Cart;G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java2 2("1*š
+1G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java3 3(yw
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java3 3(
+%0UserMS.entity.Cart"UserMS.entity.CartŒ
+‰
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java3 3(
+%1"UserMS.entity.Cart#<init>()V*
+
+%0UserMS.entity.CartŠ
+‡
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java3 3(
+cartUserMS.entity.Cart"__id*
+
+%0UserMS.entity.CartŠ‡
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java4 4(' 
+%2UserMS.entity.CompositeKey"UserMS.entity.CompositeKeyœ
+™
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java4 4()
+%3"$UserMS.entity.CompositeKey#<init>()V*"
+ 
+%2UserMS.entity.CompositeKeyœ
+™
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java4 4(*$
+comkeyUserMS.entity.CompositeKey"__id*"
+ 
+%2UserMS.entity.CompositeKeyÕÒ
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java5 5($ 
+%4UserMS.entity.CompositeKey":UserMS.entity.Cart#getComkey()LUserMS/entity/CompositeKey;*
+
+cartUserMS.entity.Cart2getComkey()ÓÐ
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java5 5(1
+%5java.lang.Integer":UserMS.entity.CompositeKey#getBuyerId()Ljava/lang/Integer;*"
+ 
+%4UserMS.entity.CompositeKey2getBuyerId()ùö
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java5 5(2
+
+%6void";UserMS.entity.CompositeKey#setBuyerId(Ljava/lang/Integer;)V*&
+$
+comkeyUserMS.entity.CompositeKey*
+
+%5java.lang.Integer2setBuyerId(Ljava/lang/Integer;)ÕÒ
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java6 6(# 
+%7UserMS.entity.CompositeKey":UserMS.entity.Cart#getComkey()LUserMS/entity/CompositeKey;*
+
+cartUserMS.entity.Cart2getComkey()ÑÎ
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java6 6(/
+%8java.lang.Integer"9UserMS.entity.CompositeKey#getProdId()Ljava/lang/Integer;*"
+ 
+%7UserMS.entity.CompositeKey2getProdId()÷ô
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java6 6(0
+
+%9void":UserMS.entity.CompositeKey#setProdId(Ljava/lang/Integer;)V*&
+$
+comkeyUserMS.entity.CompositeKey*
+
+%8java.lang.Integer2setProdId(Ljava/lang/Integer;)Â¿
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java7 7(%
+%10java.lang.Integer"3UserMS.dto.CartDTO#getQuantity()Ljava/lang/Integer;*
+UserMS.dto.CartDTO2getQuantity()ëè
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java7 7(&
+%11void"4UserMS.entity.Cart#setQuantity(Ljava/lang/Integer;)V*
+
+cartUserMS.entity.Cart*
+
+%10java.lang.Integer2 setQuantity(Ljava/lang/Integer;)"g
+G
+=C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/CartDTO.java8 8(
+
+cartUserMS.entity.CartB
+UserMS.dto.CartDTO

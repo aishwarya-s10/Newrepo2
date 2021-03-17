@@ -1,0 +1,96 @@
+
+7UserMS.dto.BuyerDTO#createEntity()LUserMS/entity/Buyer;H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaO O("1*‚
+1H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaQ Q(|z
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaQ Q(
+%0UserMS.entity.Buyer"UserMS.entity.Buyer
+Œ
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaQ Q(
+%1"UserMS.entity.Buyer#<init>()V*
+
+%0UserMS.entity.BuyerŒ
+‰
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaQ Q(
+buyUserMS.entity.Buyer"__id*
+
+%0UserMS.entity.BuyerÂ¿
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaR R("
+%2java.lang.Integer"3UserMS.dto.BuyerDTO#getBuyerId()Ljava/lang/Integer;*
+UserMS.dto.BuyerDTO2getBuyerId()éæ
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaR R(#
+
+%3void"4UserMS.entity.Buyer#setBuyerId(Ljava/lang/Integer;)V*
+
+buyUserMS.entity.Buyer*
+
+%2java.lang.Integer2setBuyerId(Ljava/lang/Integer;)¼¹
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaS S(
+%4java.lang.String"0UserMS.dto.BuyerDTO#getEmail()Ljava/lang/String;*
+UserMS.dto.BuyerDTO2
+getEmail()âß
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaS S(
+
+%5void"1UserMS.entity.Buyer#setEmail(Ljava/lang/String;)V*
+
+buyUserMS.entity.Buyer*
+
+%4java.lang.String2setEmail(Ljava/lang/String;)º·
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaT T(
+%6java.lang.String"/UserMS.dto.BuyerDTO#getName()Ljava/lang/String;*
+UserMS.dto.BuyerDTO2	getName()àÝ
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaT T(
+
+%7void"0UserMS.entity.Buyer#setName(Ljava/lang/String;)V*
+
+buyUserMS.entity.Buyer*
+
+%6java.lang.String2setName(Ljava/lang/String;)Â¿
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaU U($
+%8java.lang.String"3UserMS.dto.BuyerDTO#getPassword()Ljava/lang/String;*
+UserMS.dto.BuyerDTO2getPassword()èå
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaU U(%
+
+%9void"4UserMS.entity.Buyer#setPassword(Ljava/lang/String;)V*
+
+buyUserMS.entity.Buyer*
+
+%8java.lang.String2setPassword(Ljava/lang/String;)ÉÆ
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaV V(*
+%10java.lang.String"6UserMS.dto.BuyerDTO#getPhonenumber()Ljava/lang/String;*
+UserMS.dto.BuyerDTO2getPhonenumber()ðí
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaV V(+
+%11void"7UserMS.entity.Buyer#setPhonenumber(Ljava/lang/String;)V*
+
+buyUserMS.entity.Buyer*
+
+%10java.lang.String2"setPhonenumber(Ljava/lang/String;)ÍÊ
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaW W(,
+%12java.lang.Integer"8UserMS.dto.BuyerDTO#getRewardPoints()Ljava/lang/Integer;*
+UserMS.dto.BuyerDTO2getRewardPoints()õò
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaW W(-
+%13void"9UserMS.entity.Buyer#setRewardPoints(Ljava/lang/Integer;)V*
+
+buyUserMS.entity.Buyer*
+
+%12java.lang.Integer2$setRewardPoints(Ljava/lang/Integer;)"h
+H
+>C:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/BuyerDTO.javaX X(
+
+buyUserMS.entity.BuyerB
+UserMS.dto.BuyerDTO

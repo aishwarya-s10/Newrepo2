@@ -1,0 +1,41 @@
+
+,UserMS.service.BuyerService#IsPrivileged(I)ZP
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaX X("3*±
+2P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.java[
+ [("Z
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.java[ [(
+""*Ú
+3P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaY Y(…‚
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaY Y(
+%0UserMS.entity.Buyer"UserMS.entity.Buyer—
+”
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaY Y(
+%1"UserMS.entity.Buyer#<init>()V*
+
+%0UserMS.entity.Buyer–
+“
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaY Y(
+buyerUserMS.entity.Buyer"__id*
+
+%0UserMS.entity.Buyer¿¼
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.javaZ Z(
+%2boolean"&UserMS.entity.Buyer#getIsPrivileged()Z*
+
+buyerUserMS.entity.Buyer2getIsPrivileged()*
+2
+1*±
+1P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.java_
+ _("Z
+P
+FC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/BuyerService.java_ _(
+"":
+""B
+UserMS.service.BuyerService

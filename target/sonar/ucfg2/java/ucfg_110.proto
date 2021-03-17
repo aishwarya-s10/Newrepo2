@@ -1,0 +1,65 @@
+
+oUserMS.controller.userController#addWishlist(LUserMS/dto/WishlistDTO;)Lorg/springframework/http/ResponseEntity;W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaº º(*"9*≠
+2W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿ ¿(`…
+∆
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿ ¿(`4
+	resEntity'org.springframework.http.ResponseEntity"__id*/
+-
+%3'org.springframework.http.ResponseEntity*
+1*â
+7W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿) ¿(Qï
+í
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿R ¿(_)
+%2#org.springframework.http.HttpStatus"__id*
+""¥±
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿ ¿((-
+%3'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity÷
+”
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java¿ ¿(`
+%4"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%3'org.springframework.http.ResponseEntity**(
+&product added to Wishlist Successfully*+
+)
+%2#org.springframework.http.HttpStatus*
+2*Œ
+8W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaø ø(√
+¿
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaø ø($
+%0UserMS.service.WishListService"__id*9*7"
+ UserMS.controller.userController"
+wishlistService§°
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaø ø((
+
+%1void"EUserMS.service.WishListService#addWishlist(LUserMS/dto/WishlistDTO;)V*&
+$
+%0UserMS.service.WishListService*$
+"
+wishlistUserMS.dto.WishlistDTO2%addWishlist(LUserMS/dto/WishlistDTO;)*
+7*Ñ
+9W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaΩ# Ω('†
+ù
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaΩ Ω((4
+	resEntity'org.springframework.http.ResponseEntity"__id*
+""*
+8*
+1W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java«	 «("ë
+W
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java« «(6
+4
+	resEntity'org.springframework.http.ResponseEntity:"
+wishlistUserMS.dto.WishlistDTOB$"
+ UserMS.controller.userController

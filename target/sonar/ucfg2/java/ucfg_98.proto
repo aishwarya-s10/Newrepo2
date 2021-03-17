@@ -1,0 +1,25 @@
+
+[UserMS.controller.userController#getSpecificBuyer(Ljava/lang/Integer;)LUserMS/dto/BuyerDTO;U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java_ _(!"1*È
+1U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaa	 a(¹
+¶
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaa	 a(!
+%0UserMS.service.BuyerService"__id*4*2"
+ UserMS.controller.userController"
+
+buyservice¹¶
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaa	 a(-
+%1UserMS.dto.BuyerDTO"VUserMS.service.BuyerService#getSpecificBuyer(Ljava/lang/Integer;)LUserMS/dto/BuyerDTO;*#
+!
+%0UserMS.service.BuyerService*
+
+buyerIdjava.lang.Integer2%getSpecificBuyer(Ljava/lang/Integer;)"t
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaa a(.
+
+%1UserMS.dto.BuyerDTO:
+buyerIdjava.lang.IntegerB$"
+ UserMS.controller.userController

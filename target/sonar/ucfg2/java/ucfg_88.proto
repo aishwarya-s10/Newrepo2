@@ -1,0 +1,127 @@
+
+rUserMS.service.WishListService#getSpecificWishlist(Ljava/lang/Integer;Ljava/lang/Integer;)LUserMS/dto/WishlistDTO;S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java1 1('"3*å
+2S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java: :("œÃ
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java: :((
+%11UserMS.entity.Wishlist"*java.util.Optional#get()Ljava/lang/Object;*#
+!
+optWishListjava.util.Optional2get()£
+†
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java: :()"
+wishlistUserMS.entity.Wishlist"__id*
+
+%11UserMS.entity.Wishlistã
+à
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java; ;(.
+%12UserMS.dto.WishlistDTO"PUserMS.dto.WishlistDTO#valueOf(LUserMS/entity/Wishlist;)LUserMS/dto/WishlistDTO;*"
+UserMS.dto.WishlistDTO*$
+"
+wishlistUserMS.entity.Wishlist¶
+£
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java; ;(.%
+wishlistDTOUserMS.dto.WishlistDTO"__id*
+
+%12UserMS.dto.WishlistDTO*
+1*∑
+3S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java2 2(¶
+£
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java2 2(
+%0org.slf4j.Logger"__id*.*, 
+UserMS.service.WishListService"
+logger‹Ÿ
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java2 2(#
+
+%1void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%0org.slf4j.Logger*
+Fetching Wishlist 2info(Ljava/lang/String;)ñì
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java3 3(' 
+%2UserMS.entity.CompositeKey"UserMS.entity.CompositeKey®
+•
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java3 3()
+%3"$UserMS.entity.CompositeKey#<init>()V*"
+ 
+%2UserMS.entity.CompositeKey®
+•
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java3 3(*$
+comkeyUserMS.entity.CompositeKey"__id*"
+ 
+%2UserMS.entity.CompositeKeyäá
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java4 4(
+
+%4void";UserMS.entity.CompositeKey#setBuyerId(Ljava/lang/Integer;)V*&
+$
+comkeyUserMS.entity.CompositeKey*
+
+buyerIdjava.lang.Integer2setBuyerId(Ljava/lang/Integer;)áÑ
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java5 5(
+
+%5void":UserMS.entity.CompositeKey#setProdId(Ljava/lang/Integer;)V*&
+$
+comkeyUserMS.entity.CompositeKey*
+
+prodIdjava.lang.Integer2setProdId(Ljava/lang/Integer;)ç
+ä
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java6 6(!%
+wishlistDTOUserMS.dto.WishlistDTO"__id*
+""∆
+√
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java7 7(*
+%6$UserMS.repository.WishlistRepository"__id*:*8 
+UserMS.service.WishListService"
+wishlistrepository¯ı
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java7 7(
+%7java.util.List"Oorg.springframework.data.jpa.repository.JpaRepository#findAll()Ljava/util/List;*,
+*
+%6$UserMS.repository.WishlistRepository2	findAll()∆
+√
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java8# 8(5*
+%8$UserMS.repository.WishlistRepository"__id*:*8 
+UserMS.service.WishListService"
+wishlistrepositoryÀ»
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java8# 8(F
+%9java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*,
+*
+%8$UserMS.repository.WishlistRepository*&
+$
+comkeyUserMS.entity.CompositeKey2findById(Ljava/lang/Object;)ù
+ö
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java8 8(G!
+optWishListjava.util.Optional"__id*
+
+%9java.util.Optionalª∏
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java9 9(
+%10boolean"java.util.Optional#isPresent()Z*#
+!
+optWishListjava.util.Optional2isPresent()*
+2
+1*ÿ
+1S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java=	 =("~
+S
+IC:/Users/Admin/Newrepo2/src/main/java/UserMS/service/WishListService.java= =('
+%
+wishlistDTOUserMS.dto.WishlistDTO:
+buyerIdjava.lang.Integer:
+prodIdjava.lang.IntegerB" 
+UserMS.service.WishListService

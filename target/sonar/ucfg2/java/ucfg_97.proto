@@ -1,0 +1,25 @@
+
+?UserMS.controller.userController#getAllbuyers()Ljava/util/List;U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.javaY Y(#"1*é
+1U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java[
+ [(¹
+¶
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java[
+ [(!
+%0UserMS.service.BuyerService"__id*4*2"
+ UserMS.controller.userController"
+
+buyserviceßÜ
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java[
+ [("
+%1java.util.List"9UserMS.service.BuyerService#getAllBuyer()Ljava/util/List;*#
+!
+%0UserMS.service.BuyerService2getAllBuyer()"o
+U
+KC:/Users/Admin/Newrepo2/src/main/java/UserMS/controller/userController.java[ [(#
+
+%1java.util.ListB$"
+ UserMS.controller.userController

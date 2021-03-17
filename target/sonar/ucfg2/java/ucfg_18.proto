@@ -1,0 +1,51 @@
+
+3UserMS.dto.WishlistDTO#toString()Ljava/lang/String;K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java* *("1*˜
+1K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+	 +( ò
+ï
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+# +(*
+%0java.lang.Integer"__id*'*%
+UserMS.dto.WishlistDTO"	
+buyerId®
+•
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+	 +(*
+%1java.lang.String"__concat*
+WishlistDTO [buyerid=*
+
+%0java.lang.Integerõ
+ò
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+	 +(8
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, prodid=ó
+î
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+; +(A
+%3java.lang.Integer"__id*&*$
+UserMS.dto.WishlistDTO"
+prodIdß
+§
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+	 +(A
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Integerì
+ê
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+	 +(G
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+]"g
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java+ +(H
+
+%5java.lang.StringB
+UserMS.dto.WishlistDTO

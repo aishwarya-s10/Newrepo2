@@ -1,0 +1,51 @@
+
+=UserMS.dto.WishlistDTO#createEntity()LUserMS/entity/Wishlist;K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java" "("1*¦
+1K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java# #($†ƒ
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java# #("
+%0UserMS.entity.Wishlist"UserMS.entity.Wishlist˜
+•
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java# #($
+%1" UserMS.entity.Wishlist#<init>()V*
+
+%0UserMS.entity.Wishlistš
+—
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java# #(%"
+wishlistUserMS.entity.Wishlist"__id*
+
+%0UserMS.entity.WishlistÕÒ
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java$ $(+
+%2java.lang.Integer"6UserMS.entity.Wishlist#getBuyerId()Ljava/lang/Integer;*$
+"
+wishlistUserMS.entity.Wishlist2getBuyerId()÷ô
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java$ $(,
+
+%3void"7UserMS.entity.Wishlist#setBuyerId(Ljava/lang/Integer;)V*$
+"
+wishlistUserMS.entity.Wishlist*
+
+%2java.lang.Integer2setBuyerId(Ljava/lang/Integer;)ÓÐ
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java% %()
+%4java.lang.Integer"5UserMS.entity.Wishlist#getProdId()Ljava/lang/Integer;*$
+"
+wishlistUserMS.entity.Wishlist2getProdId()õò
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java% %(*
+
+%5void"6UserMS.entity.Wishlist#setProdId(Ljava/lang/Integer;)V*$
+"
+wishlistUserMS.entity.Wishlist*
+
+%4java.lang.Integer2setProdId(Ljava/lang/Integer;)"s
+K
+AC:/Users/Admin/Newrepo2/src/main/java/UserMS/dto/WishlistDTO.java& &($
+"
+wishlistUserMS.entity.WishlistB
+UserMS.dto.WishlistDTO
