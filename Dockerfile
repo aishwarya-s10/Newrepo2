@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-slim
 VOLUME /tmp
 COPY /target/UserMS111-0.0.1-SNAPSHOT.jar /usr/app/
 WORKDIR /usr/app
