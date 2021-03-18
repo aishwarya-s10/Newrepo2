@@ -135,7 +135,7 @@ public class userController {
 		return  cartservice.getAllcartDetails();
 	}
 	
-	@GetMapping(value = "api/cart")
+	@GetMapping(value = "/cart/{buyerId}")
 	public List<CartDTO> getAllCartItem(@RequestParam int buyerId) {
 		return cartservice.getAllCartItem(buyerId);
 
